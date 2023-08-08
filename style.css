@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    padding-right: 750px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header .container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landingPage header{
+    min-height: 80px;
+    display: flex;
+}
+.landingPage header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.landingPage header .logo{
+    color: #5d5d5d;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.landingPage header .links{
+    display: flex;
+    align-items: center;
+}
+.landingPage header .links li{
+    margin-left: 30px;
+    color: #5d5d5d;
+    cursor: pointer;
+    transition: .3s;
+}
+.landingPage header .links li:last-child {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #6c63ff;
+  }
+  .landingPage header .links li:not(last-child):hover{
+    color: #0b074c;
+  }
+  .landingPage .content{
+    height: 90vh;
+  }
+  .landingPage .content .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    /* min-height: calc(100vh-80px); */
+    margin-left: 120px;
+    margin-right: 235px;
+    margin-top: 40px
+  }
+  .landingPage .content .info h1{
+    color: #5d5d5d;
+    font-size: 40px;
+  }
+  .landingPage .content .info p{
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #5d5d5d;
+  }
+  .landingPage .content .info button{
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #6c63ff;
+  }
+  .landingPage .content .image img{
+    max-width: 100%;
+  }
+  footer{
+    height: 11vh;
+    background-color: #6c63ff;
+    border: 2px solid black;
+  }
+  .hard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+  }
